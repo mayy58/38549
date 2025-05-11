@@ -1,0 +1,2 @@
+Los ejemplos encontrados en esta carpeta se tienen que copiar y pegar en el 
+input.txt para poder funcionar.

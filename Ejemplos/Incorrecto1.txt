@@ -1,0 +1,5 @@
+Juego JuegoMal {
+  escena Error {
+    mostrar "Falta punto y coma"
+  }
+}

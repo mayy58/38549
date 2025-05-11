@@ -1,0 +1,5 @@
+juego MiAventura {
+  escena Inicio{
+    mostrar "¡Bienvenido a la aventura!";
+  }
+}

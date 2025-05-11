@@ -1,0 +1,7 @@
+juego AventuraConCondiciones{
+  escene Inicio{
+    mostrar "¿Cuál es tu nombre?";
+    leer nombre;
+    si nombre == "Juan" saltaqr EscenaSrecreta;
+  }
+}
