@@ -22,7 +22,7 @@ Antes de ejecutar el proyecto, asegurate de tener instalado:
 
 1. Cloná el repositorio: git clone https://github.com/mayy58/38549.git
 
-2.Abrí una terminal en la carpeta del proyecto
+2. Abrí una terminal en la carpeta del proyecto
 En VS Code: Terminal > New Terminal
 
 O usá el atajo: Ctrl + ñ
