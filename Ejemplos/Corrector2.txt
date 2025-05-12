@@ -1,7 +1,24 @@
-juego AventuraConCondiciones{
-  escene Inicio{
+juego AventuraConCondiciones {
+  escena Inicio {
     mostrar "¿Cuál es tu nombre?";
     leer nombre;
-    si nombre == "Juan" saltaqr EscenaSrecreta;
+    si nombre == "Juan" saltar EscenaSecreta;
+  }
+
+  escena EscenaSecreta {
+    mostrar "Bienvenido, Juan!";
+  }
+}
+
+juego Aventura {
+  escena Inicio {
+    mostrar "¡Hola!";
+    leer decision;
+    si decision == 1 saltar Final;
+    mostrar "Elegiste continuar.";
+  }
+
+  escena Final {
+    mostrar "Fin del juego.";
   }
 }

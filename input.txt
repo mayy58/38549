@@ -1,5 +1,5 @@
-juego MiAventura {
-  escena Inicio{
-    mostrar "¡Bienvenido a la aventura!";
+juego {        
+  escena SinNombre {
+    leer edad;
   }
 }
