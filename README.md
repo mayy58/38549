@@ -1,32 +1,41 @@
 # 📘 Proyecto "Intérprete de Lenguaje de Juegos"
----
-
-Este proyecto es un analizador léxico, sintáctico e intérprete básico para un lenguaje personalizado orientado a juegos interactivos. Está desarrollado en JavaScript utilizando ANTLR4 y permite interpretar comandos como mostrar, leer, si, y saltar entre escenas.
 
 ---
-⚙️ Requisitos
+
+Este proyecto es un **analizador léxico, sintáctico e intérprete básico** para un lenguaje personalizado orientado a juegos interactivos.  
+Está desarrollado en **JavaScript** utilizando **ANTLR4** y permite interpretar comandos como `mostrar`, `leer`, `si` y `saltar` entre escenas.
+
+---
+
+## ⚙️ Requisitos
+
 Antes de ejecutar el proyecto, asegurate de tener instalado:
 
--Node.js
-
--Java (JDK)
-
--ANTLR4
-
--Extensión ANTLR4 Grammar Syntax Support en Visual Studio Code (para depurar y ver el árbol)
+- Node.js  
+- Java (JDK)  
+- ANTLR4  
+- Extensión **ANTLR4 Grammar Syntax Support** en Visual Studio Code (para depurar y ver el árbol)  
 
 ---
 
-▶️ ¿Cómo ejecutar el intérprete?
-1. Abrí una terminal en la carpeta del proyecto
+## 📥 ¿Cómo preparar el proyecto?
+
+1. Cloná el repositorio: git clone https://github.com/mayy58/38549.git
+2.Abrí una terminal en la carpeta del proyecto
 En VS Code: Terminal > New Terminal
 
 O usá el atajo: Ctrl + ñ
 
-La terminal se abrirá directamente en la raíz del proyecto.
+La terminal se abrirá directamente en la raíz del proyecto e instalá las dependencias con:
 
-2. Copiá uno de los cuatro archivos que hay en la carpeta 'Ejemplos' y pegalo en input.txt. RECORDÁ GUARDAR (Ctrl + s)
-3. Ejecutá el analizador
+**npm install**
+
+---
+
+## ▶️ ¿Cómo ejecutar el intérprete?
+
+3. Copiá uno de los cuatro archivos que hay en la carpeta 'Ejemplos' y pegalo en input.txt. RECORDÁ GUARDAR (Ctrl + s)
+4. Ejecutá el analizador
 
 Al ejecutar este comando: **node index.js**
 
