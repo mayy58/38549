@@ -1,5 +1,12 @@
-juego {        
-  escena SinNombre {
-    leer edad;
+juego Aventura {
+  escena Inicio {
+    mostrar "¡Hola!";
+    leer decision;
+    si decision == 1 saltar Final;
+    mostrar "Elegiste continuar.";
+  }
+
+  escena Final {
+    mostrar "Fin del juego.";
   }
 }
